@@ -1,0 +1,19 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+}
+
+.container {
+    color: white;
+    background-color: tomato;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 3em 0;
+}
