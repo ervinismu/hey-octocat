@@ -1,11 +1,42 @@
 * {
     /* border: 1px solid red; */
     margin: 0px;
+    /* font-family: 'Sono', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+input {
+    font-weight: 700;
+}
+
+body {
+    background-color: #a855f7;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%231e293b' fill-opacity='0.04'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.input-text {
+    padding: 0.5rem;
 }
 
 .container {
-    color: white;
-    background-color: tomato;
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
@@ -13,7 +44,70 @@
     text-align: center;
 }
 
+#header {
+    text-align: center;
+    padding: 1em 0;
+}
+
+#search {
+    color: #001f3f;
+    padding: 1rem;
+}
+
+#form-search {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#repositories {
+    box-shadow: 2px 2px #eff0f2;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    padding: 0.7rem;
+    
+    /* border-radius: 50px; */
+    background: #a855f7;
+    box-shadow:  20px 20px 60px #8f48d2,
+                 -20px -20px 60px #c162ff;
+}
+
+#total-repositories {
+    padding: 0.3rem;
+}
+
+#list-repositories {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#list-repositories div {
+    border-radius: 0.2rem;
+    margin: 0.3rem;
+    padding: 0.4rem;
+    background-color: #001f3f;
+    box-shadow: 4px 4px #ffffff;
+    transition: 0.3s;
+}
+
+#list-repositories div:hover {
+    padding: 0.5rem;
+    box-shadow: 5px 5px #ffffff;
+}
+
+#list-repositories div a {
+    color: #f1f5f9;
+}
+
 footer {
     text-align: center;
     padding: 3em 0;
+}
+
+@media only screen and (max-width: 640px) {
+    #list-repositories {
+        flex-direction: column;
+    }
 }

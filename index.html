@@ -5,13 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
     <title>Hey Octocat</title>
 </head>
 <body>
 
+    <header id="header">
+        <h1>HEY OCTOCAT!</h1>
+    </header>
+
     <div class="container">
         <main>
-            <h1>Hey Octocat</h1>
+
+            <!-- FORM SEARCH -->
+            <div id="search">
+                <form action="" id="form-search">
+                    <label for="username">Username</label>
+                    <input type="text" name="username">
+                    <input type="submit" value="Search Octocat">
+                </form>
+            </div>
+
+            <!-- REPOSITORIES -->
+            <div id="repositories">
+                <h1 id="total-repositories">Repositories</h1>
+                <!-- Element success -->
+                <div id="list-repositories"></div>
+                <!-- Element message -->
+                <p id="empty-repositories"></p>
+            </div>
         </main>
     </div>
 
